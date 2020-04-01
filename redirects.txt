@@ -1,0 +1,39 @@
+# REDIRECT RULES #
+
+# Each line in this file specifies a redirect rule that redirects users from one URL to another.
+#
+# Redirect rules must follow this pattern: old_file.rst new_file.rst  # optional comment
+# Both parts are file paths and must thus include the full path of the file starting from the root
+# of the documentation to the file name, including the .rst extension.
+# If you consider it necessary, add a comment after the symbol '#' to explain why the redirection is
+# needed.
+#
+# A redirect rule must be added to this file in the following cases:
+#
+#   1. An RST file is moved from one location to another.
+#      Example: The TOC of the Sales app is moved into a file index.rst located in sales/ .
+#      Rule: sales.rst sales/index.rst
+#
+#   2. An RST file is renamed.
+#      Example: The file create_quotations.rst in sales/ is renamed to quotations.rst.
+#      Rule: sales/create_quotations.rst sales/quotations.rst # no longer limited to creating quotes
+#
+#   3. An RST file does not exist in an earlier supported version. It can be due to cases 1 and 2.
+#      Example: The file batch_sdd.rst is added in accounting/ as of 13.0.
+#      Rule (11.0 to 12.0 only): accounting/batch_sdd.rst accounting.rst # new page added in 13.0
+#
+#   4. An RST file does not exist in an ulterior supported version. It can be due to cases 1 and 2.
+#      Example: The file open_sales_order_line_popup.rst is removed from sales/ in 13.0.
+#      Rule (13.0 only): sales/open_sales_order_line_popup.rst sales.rst # feature replaced in 13.0
+
+
+# Redirections taking effect as of 11.0 :
+
+
+
+# Redirections taking effect as of 12.0 :
+
+
+
+# Redirections taking effect as of 13.0 :
+
